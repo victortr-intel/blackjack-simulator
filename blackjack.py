@@ -83,6 +83,7 @@ class GameData:
         ax.set_position([pos.x0, pos.y0, pos.width * 0.9, pos.height])
         ax.legend(loc='center right', bbox_to_anchor=(1.5, 0.5), title="Players")
         plt.tight_layout()
+        plt.grid()
         plt.show()
 
 class BlackJackGame:
